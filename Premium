@@ -1,0 +1,14 @@
+-- Create ScreenGui
+local gui = Instance.new("ScreenGui")
+gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+-- Create TextLabel
+local label = Instance.new("TextLabel")
+label.Parent = gui
+label.Size = UDim2.new(0.6, 0, 0.2, 0)
+label.Position = UDim2.new(0.2, 0, 0.4, 0)
+label.BackgroundTransparency = 1
+label.Text = "fuck you bitch ass nigga U IS NOT GETTING THAT PREMUIM VERSION FUCKER NIGGER NIGGER NIGGER"
+label.TextScaled = true
+label.Font = Enum.Font.GothamBold
+label.TextColor3 = Color3.fromRGB(255, 255, 255)
